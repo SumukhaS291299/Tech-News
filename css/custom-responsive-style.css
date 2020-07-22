@@ -1,21 +1,9 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 767px) {
 	#Banner .blacksection::before {
-		height: 2000px;
-		transition: all 0.5s;
-		-ms-transition: all 0.5s;
-		-webkit-transition-delay: 1s;
-		transition-delay: 1s;
-		-ms-transition-delay: 1s;
-		width: 2000px;
-	  	height: 0;
-  		background-color: #000;
-  		position: absolute;
-  		right: -1000px;
-  		transform: rotate(124deg);
-  		-ms-transform: rotate(124deg);
-  		content: "";
-  		top: 0;
+		right: 0;
+	    transform: rotate(50deg);
+	    top: 0;
 	}
 	#Banner {
 		width: 100%;
