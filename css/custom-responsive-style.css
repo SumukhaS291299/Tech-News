@@ -1,9 +1,12 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 767px) {
-	#Banner .blacksection::before {
+	#Banner{
+		display : none
+	}
+	.blacksection::before {
 		right: 0;
 	    transform: rotate(50deg);
-	    top: 0;
+		top: 0;
 	}
 	#Banner {
 		width: 100%;
@@ -20,7 +23,7 @@
 		width: 60px;
 	}
 	#Banner .logo {
-		display: none;
+		display: absolute;
 	}
 	.mobile-logo img {
 		width: 100%;
