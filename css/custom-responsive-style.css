@@ -4,9 +4,7 @@
 		display : none
 	}
 	.blacksection::before {
-		right: 0;
-	    transform: rotate(50deg);
-		top: 0;
+		display: none;
 	}
 	#Banner {
 		width: 100%;
@@ -23,7 +21,7 @@
 		width: 60px;
 	}
 	#Banner .logo {
-		display: absolute;
+		display: none;
 	}
 	.mobile-logo img {
 		width: 100%;
