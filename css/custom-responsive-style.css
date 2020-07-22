@@ -1,7 +1,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 767px) {
 	#Banner .blacksection::before {
-		display: absolute;
+		
 	}
 	#Banner {
 		width: 100%;
