@@ -21,6 +21,11 @@
 	font-family: 'Futura PT Heavy';
 	src: url("../font/FuturaPTHeavy.otf");
 }
+#MainBody{
+  background-image: url(https://cdn.wallpapersafari.com/32/47/PkcWet.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /* Global style begins here */
 body {
 	font-family: 'Futura PT medium';
@@ -233,7 +238,7 @@ body.active .mscroll {
 .News {
 	padding: 60px 0 90px 0;
   text-align: center;
-  background-color: #160918;
+  background-color: none;
 }
 .News h1{
 	color: rgb(224, 180, 180);
@@ -257,8 +262,10 @@ body.active .mscroll {
     margin-right: 30px;
   text-align: left;
   padding-left: 50px;
-  background-color: var(--blue);
+  padding-top:15px;
   background-image: url(https://i.gifer.com/P3Rm.gif);
+  background-color: skyblue;
+  background-attachment: fixed;
   height: 500px;
   width: auto;
   background-position: center; 
@@ -272,7 +279,9 @@ body.active .mscroll {
     margin-right: 30px;
     text-align: left;
     padding-left: 50px;
+    padding-top:15px;
     background-color: var(--orange);
+    background-attachment: fixed;
     background-image: url(https://cdn.dribbble.com/users/806986/screenshots/2264664/microsoft-logo-morph.gif);
     height: 600px;
     width: auto;
@@ -286,8 +295,10 @@ body.active .mscroll {
     margin-left:30px;
     margin-right: 30px;
     text-align: left;
-    padding-right: 50px;
-    background-color: black;
+    padding-left: 50px;
+    padding-top:15px;
+    background-color: rgb(4, 4, 22);
+    background-attachment: fixed;
     background-image: url(https://media1.tenor.com/images/ab8249082c6382223c56c0ca471a80c2/tenor.gif?itemid=12503538);
     height: 600px;
     width: auto;
