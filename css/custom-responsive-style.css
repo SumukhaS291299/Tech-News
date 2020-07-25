@@ -20,14 +20,20 @@
 	#G {
 		height: auto;
 		width: auto;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	#M{
 		height: auto;
 		width: auto;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	#A{
 		height: auto;
 		width: auto;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	#Banner .logo {
 		display: none;
@@ -180,18 +186,6 @@
 	#Banner h1 {
 		right: 16%;
 		opacity: 1;
-	}
-	#G {
-		height: auto;
-		width: auto;
-	}
-	#M{
-		height: auto;
-		width: auto;
-	}
-	#A{
-		height: auto;
-		width: auto;
 	}
 	#OurBlog .each-block::before , #OurBlog .blog-wrap::before {
 		display: none;
