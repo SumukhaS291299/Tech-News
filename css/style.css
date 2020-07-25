@@ -259,18 +259,21 @@ body.active .mscroll {
   font : 22px 'Sofia';
   margin-bottom: 30px;
   margin-left:30px;
-    margin-right: 30px;
-  text-align: left;
+  margin-right: 30px;
+  text-align: center;
   padding-left: 50px;
   padding-top:15px;
   background-image: url(https://i.gifer.com/P3Rm.gif);
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: auto;
   width: auto;
   background-position: center; 
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+
+
+  
+/*background-size: cover;*/
 }
   #M{
     font-family: "Comic Sans MS", cursive, sans-serif;

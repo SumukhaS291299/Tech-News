@@ -17,6 +17,18 @@
 		display: block;
 		width: 60px;
 	}
+	#G {
+		height: auto;
+		width: auto;
+	}
+	#M{
+		height: auto;
+		width: auto;
+	}
+	#A{
+		height: auto;
+		width: auto;
+	}
 	#Banner .logo {
 		display: none;
 	}
@@ -168,6 +180,18 @@
 	#Banner h1 {
 		right: 16%;
 		opacity: 1;
+	}
+	#G {
+		height: auto;
+		width: auto;
+	}
+	#M{
+		height: auto;
+		width: auto;
+	}
+	#A{
+		height: auto;
+		width: auto;
 	}
 	#OurBlog .each-block::before , #OurBlog .blog-wrap::before {
 		display: none;
