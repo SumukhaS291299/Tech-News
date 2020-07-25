@@ -22,7 +22,8 @@
 		margin: auto;
   		width: 50%;
  		border: 3px;
- 	 	padding: 10px;
+		  padding: 10px;
+		  padding-left: 0px;
 	}
 
 	#G {
@@ -30,6 +31,7 @@
 		width: auto;
 		margin-left: 0px;
 		margin-right: 0px;
+		padding-left: 0px;
 		
 	}
 	#M{
@@ -37,12 +39,14 @@
 		width: auto;
 		margin-left: 0px;
 		margin-right: 0px;
+		padding-left: 0px;
 	}
 	#A{
 		height: auto;
 		width: auto;
 		margin-left: 0px;
 		margin-right: 0px;
+		padding-left: 0px;
 	}
 	#Banner .logo {
 		display: none;
