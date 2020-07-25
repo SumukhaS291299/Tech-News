@@ -4,7 +4,9 @@
 <title>Tech News</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
  
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -85,9 +87,26 @@
     <h1>Tech<br>News</h1>
   </div>
 
-
-
-
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .zoom {
+      padding: 50px;
+      padding-right: 50px;
+      transition: transform .2s;
+      width: auto;
+      height: 200px;
+      margin: 0 auto;
+    }
+    
+    .zoom:hover {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1); 
+    }
+    </style>
 
 </section>
 <a href="#News" class="mscroll"><img src="images/mouse-icon.png" alt="mouse icon"></a>
@@ -99,15 +118,29 @@
 
     <div id="G">
     <h2 style="color:red">Google  News</h2>
+    
+    <div class="zoom">
+      <h2>Hello</h2>
+    </div>
   
     </div>
 
   <div id="M">
-  <h2  style="color:">Microsoft News</h2>
+  <h2  style="color:red">Microsoft News</h2>
+  
+  <div class="zoom">
+    <h2>Hello</h2>
+  </div>
+
   </div>
 
   <div id="A">
   <h2 style="color:red">Apple News</h2>
+
+  <div class="zoom">
+    <h2>Hello</h2>
+  </div>
+
   </div>
  </div>
 
@@ -284,27 +317,33 @@
           <img src="images/blog-icon.png">
         </div>
         <div class="blog-intro"> 
+          <div class="zoom">
           <h3>Stuck at home..</h3>
           <p>When a group of ambitious designers meet, you know something hot is brewing. Take a closer look and you’ll find them murmuring away..</p>
         </div>
+      </div>
       </div>
       <div class="each-block clearfix two"> 
         <div class="icon">
           <img src="images/blog-icon.png">
         </div>
         <div class="blog-intro"> 
+          <div class="zoom">
           <h3>Opening New Doors for..</h3>
           <p>Compelling creative ambitious  play a major role in the success  program..</p>
         </div>
+      </div>
       </div>
       <div class="each-block clearfix three"> 
         <div class="icon">
           <img src="images/blog-icon.png">
         </div>
         <div class="blog-intro"> 
+          <div class="zoom">
           <h3>Your Vision, our Future..</h3>
           <p>At Position², we combine creative thinking and best practices for each channel to develop engaging and effective assets to enhance your brand.. </p>
         </div>
+      </div>
       </div>
     </div>
     <div class="learnmore">
