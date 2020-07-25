@@ -17,11 +17,20 @@
 		display: block;
 		width: 60px;
 	}
+
+	#News{
+		margin: auto;
+  		width: 50%;
+ 		border: 3px;
+ 	 	padding: 10px;
+	}
+
 	#G {
 		height: auto;
 		width: auto;
 		margin-left: 0px;
 		margin-right: 0px;
+		
 	}
 	#M{
 		height: auto;
