@@ -251,6 +251,8 @@ body.active .mscroll {
 .Top {
 	font: 68px/125% 'Roboto';
   margin-bottom: 90px;
+  margin-left: 15px;
+  margin-right: 20px;
   text-align: left;
   padding-left: 40px;
 }
@@ -287,7 +289,7 @@ body.active .mscroll {
     background-attachment: fixed;
     background-image: url(https://cdn.dribbble.com/users/806986/screenshots/2264664/microsoft-logo-morph.gif);
     background-size: cover;
-    height: 600px;
+    height: auto;
     width: auto;
     background-position: center; 
     background-repeat: no-repeat;
@@ -305,7 +307,7 @@ body.active .mscroll {
     background-attachment: fixed;
     background-image: url(https://media1.tenor.com/images/ab8249082c6382223c56c0ca471a80c2/tenor.gif?itemid=12503538);
     background-size: cover;
-    height: 600px;
+    height: auto;
     width: auto;
     background-position: center; 
     background-repeat: no-repeat;
