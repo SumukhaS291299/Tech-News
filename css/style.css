@@ -249,7 +249,8 @@ body.active .mscroll {
 }
 
 .Top {
-	font: 68px/125% 'Roboto';
+  font: 68px/125% 'Roboto';
+  color: red;
   margin-bottom: 90px;
   margin-left: 15px;
   margin-right: 20px;
