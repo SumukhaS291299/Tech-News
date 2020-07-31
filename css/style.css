@@ -22,7 +22,7 @@
 	src: url("../font/FuturaPTHeavy.otf");
 }
 #MainBody{
-  background-image: url(https://cdn.wallpapersafari.com/32/47/PkcWet.jpg);
+  background-image: url(https://thumbs.gfycat.com/CorruptLinearElk-size_restricted.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -247,6 +247,7 @@ body.active .mscroll {
   margin-bottom: 90px;
   text-align: left;
   padding-left: 20px;
+  padding:10px;
 }
 
 p.Fit{
@@ -258,16 +259,17 @@ p.Fit{
 .Top {
   font: 68px/125% 'Roboto';
   color: red;
-  
+  padding:10px;
   text-align: left;
+  margin: 5px;
   
 }
 
 #G{
   font : 22px 'Sofia';
-  
+  padding:10px;
   text-align: center;
-  
+  margin: 5px;
   background-image: url(https://i.gifer.com/P3Rm.gif);
   background-size: cover;
   background-attachment: fixed;
@@ -281,10 +283,10 @@ p.Fit{
 /*background-size: cover;*/
 }
   #M{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    
+    font-family: 22px "Comic Sans MS", cursive, sans-serif;
+    padding:10px;
     text-align: center;
-    
+    margin: 5px;
     background-attachment: fixed;
     background-image: url(https://www.sleepinggiantmedia.co.uk/wp-content/uploads/2018/11/microsoft.gif);
     background-size: cover;
@@ -295,10 +297,10 @@ p.Fit{
     
     }
   #A{
-    font-family: "Lobster", serif;
-    
+    font-family:22px "Lobster", serif ;
+    padding:10px;
     text-align: center;
-   
+    margin: 5px;
     background-attachment: fixed;
     background-image: url(https://media1.tenor.com/images/ab8249082c6382223c56c0ca471a80c2/tenor.gif?itemid=12503538);
     background-size: cover;
