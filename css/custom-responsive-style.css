@@ -17,6 +17,10 @@
 		display: block;
 		width: 60px;
 	}
+	p.Fit{
+		width: auto;
+		word-wrap: break-word;
+	  }
 
 	#News{
 		margin: auto;

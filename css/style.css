@@ -236,9 +236,10 @@ body.active .mscroll {
 
 /* Our Digital News style begins here */
 .News {
-	padding: 60px 0 90px 0;
   text-align: center;
   background-color: none;
+  margin: 8px;
+  padding: 5px;
 }
 .News h1{
 	color: rgb(224, 180, 180);
@@ -248,24 +249,25 @@ body.active .mscroll {
   padding-left: 20px;
 }
 
+p.Fit{
+  width: auto;
+  word-wrap: break-word;
+}
+
+
 .Top {
   font: 68px/125% 'Roboto';
   color: red;
-  margin-bottom: 90px;
-  margin-left: 15px;
-  margin-right: 20px;
+  
   text-align: left;
-  padding-left: 40px;
+  
 }
 
 #G{
   font : 22px 'Sofia';
-  margin-bottom: 30px;
-  margin-left:30px;
-  margin-right: 30px;
+  
   text-align: center;
-  padding-left: 50px;
-  padding-top:15px;
+  
   background-image: url(https://i.gifer.com/P3Rm.gif);
   background-size: cover;
   background-attachment: fixed;
@@ -280,12 +282,9 @@ body.active .mscroll {
 }
   #M{
     font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-bottom: 30px;
-    margin-left:30px;
-    margin-right: 30px;
+    
     text-align: center;
-    padding-left: 50px;
-    padding-top:15px;
+    
     background-attachment: fixed;
     background-image: url(https://www.sleepinggiantmedia.co.uk/wp-content/uploads/2018/11/microsoft.gif);
     background-size: cover;
@@ -297,12 +296,9 @@ body.active .mscroll {
     }
   #A{
     font-family: "Lobster", serif;
-    margin-bottom: 30px;
-    margin-left:30px;
-    margin-right: 30px;
+    
     text-align: center;
-    padding-left: 50px;
-    padding-top:15px;
+   
     background-attachment: fixed;
     background-image: url(https://media1.tenor.com/images/ab8249082c6382223c56c0ca471a80c2/tenor.gif?itemid=12503538);
     background-size: cover;
